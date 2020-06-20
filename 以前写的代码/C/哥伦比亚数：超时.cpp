@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main(){
+	int n,a,i,h,e,m,k,p;
+	scanf("%d",&n);
+	while(n--){
+		scanf("%d",&a);
+		if(a==1)
+		printf("Yes\n");
+		else{
+		for(i=1;i<a;i++){
+			m=i;
+			h=0;
+			p=i;
+			k=1;
+			do{
+				e=p%10;
+				p=p/10;
+				h+=e;
+			}while(p!=0);
+		if(a==(m+h)){
+		k=0;
+		break;}
+			}
+			if(k)
+			printf("Yes\n");
+			else
+			printf("No\n");
+		}
+	}
+} 

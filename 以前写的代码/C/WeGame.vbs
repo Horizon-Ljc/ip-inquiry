@@ -1,0 +1,5 @@
+do
+msgbox“sb,还想玩游戏”
+msgbox“还想关”
+msgbox“苏乞儿”
+loop
